@@ -14,6 +14,7 @@ public class Potato implements Tuber {
     private final List<Condiment> condiments = new ArrayList<>();
 
     public static void main(String[] args) {
+        System.out.println("mig was here :o")
         final Potato potato = new Potato();
         try {
             potato.prepare();
